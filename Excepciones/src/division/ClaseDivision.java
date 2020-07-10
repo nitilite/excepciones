@@ -24,6 +24,8 @@ public class ClaseDivision {
         } catch (Exception e ){
             //Comportamiento del programa cuando nuestro error se ejecute
             System.out.println("ERROR!!!!!  "+ e);
+        } finally {
+            System.out.println("Operacion Exitosa!!");
         }
         
     }
