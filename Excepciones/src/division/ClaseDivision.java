@@ -1,33 +1,34 @@
-
 package division;
+
 import java.util.Scanner;
+
 /**
  *
  * @author fvp
  */
 public class ClaseDivision {
-    public static void main(String[] args){
-        try{
+
+    public static void main(String[] args) {
+        try {
             //codigo fuente
             int valor1, valor2, resultado;
             Scanner entrada = new Scanner(System.in);
 
             System.out.print("Dame el primer valor:   ");
-            valor1= entrada.nextInt();
+            valor1 = entrada.nextInt();
 
             System.out.print("Dame el segundo valor:   ");
-            valor2=entrada.nextInt();
+            valor2 = entrada.nextInt();
 
-
-            resultado = valor1 / valor2;
+            resultado = valor1 / valor2; // Operacion aritmeticca
             System.out.print("Division es igual a: " + resultado);
-        } catch (Exception e ){
+        } catch (Exception e) {
             //Comportamiento del programa cuando nuestro error se ejecute
-            System.out.println("ERROR!!!!!  "+ e);
-        } finally {
+            System.out.println("ERROR!!!!!  " + e);
+        } finally { // opcional
             System.out.println("Operacion Exitosa!!");
         }
-        
+
     }
-            
+
 }

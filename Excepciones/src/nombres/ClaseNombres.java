@@ -7,12 +7,12 @@ public class ClaseNombres {
         String mensajes[] = {"Luis","Carlos","David","Allen"};
         int cont;
         try{
-            for(cont=0; cont <=3; cont++)
+            for(cont=0; cont <=4; cont++)
                 System.out.println(mensajes[cont]);
          
                         
         }
-        catch (ArrayIndexOutOfBoundsException excep) {
+        catch (Exception excep) {
             System.out.println("El arreglo se ha desbordado de su indice" + excep);
         }
     }
